@@ -1,0 +1,38 @@
+/* General reset for consistent appearance across browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navbar styles */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black; /* Dark mode background */
+    color: whitesmoke; /* Navbar text color */
+    padding: 1rem 2rem;
+  }
+  
+  nav .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: whitesmoke;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: pink; /* Highlight on hover */
+  }
+  

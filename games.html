@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Select a Game to Play">
+  <title>Play Games | Personal Website</title>
+  <link rel="stylesheet" href="css/games.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Full Page Background Video -->
+  <video autoplay muted loop id="background-video">
+    <source src="path-to-video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Navbar Section -->
+  <nav>
+    <div class="logo">My Personal Website</div>
+    <ul class="nav-links">
+      <li><a href="index.html">About Me</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="experience.html">Experience</a></li>
+      <li><a href="languages.html">Languages Known</a></li>
+      <li><a href="games.html">Play Games</a></li>
+      <li><a href="contact.html">Contact Me</a></li>
+    </ul>
+  </nav>
+
+  <!-- Game Selection Section -->
+  <section class="game-selection">
+    <h1>Select a Game to Play</h1>
+    <div class="game-container">
+      <!-- Tic Tac Toe -->
+      <div class="game-card">
+        <i class="fas fa-gamepad"></i>
+        <p>Tic Tac Toe</p>
+      </div>
+      <button class="game-btn" onclick="window.location.href='tic-tac-toe.html'">Play <i class="fas fa-arrow-right"></i></button>
+      
+      <!-- Connect Four -->
+      <div class="game-card">
+        <i class="fas fa-circle-notch"></i>
+        <p>Connect Four</p>
+      </div>
+      <button class="game-btn" onclick="window.location.href='connect-four.html'">Play <i class="fas fa-arrow-right"></i></button>
+    </div>
+  </section>
+
+</body>
+</html>

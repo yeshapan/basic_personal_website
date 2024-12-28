@@ -1,0 +1,58 @@
+/* CSS for About Me Section */
+
+body {
+    background-color: black; /* Dark mode background */
+    color: whitesmoke; /* Text color */
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+  }
+  
+  .about-me {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .about-me h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: pink;
+  }
+  
+  /* Styling the name 'Yesha' in cursive */
+  .name {
+    font-family: 'Allura'; /*Allura cursive is pretty but not working on my system*/
+    font-size: 3rem;
+    color: pink; /* Light pink */
+  }
+  
+  /* Styling 'Hello, I'm' in the original font (sans-serif) */
+  .intro {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+  }
+  
+  .about-me p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto 2rem auto;
+    line-height: 1.5;
+  }
+  
+  /* Social Media Icons Section */
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  .social-icons a {
+    color: whitesmoke;
+    font-size: 2rem;
+    transition: transform 0.3s, color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: pink;
+    transform: scale(1.2); /* Slight zoom on hover */
+  }
+  
