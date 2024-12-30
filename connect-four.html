@@ -1,1 +1,39 @@
 <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Connect Four Game">
+  <title>Connect Four | Personal Website</title>
+  <link rel="stylesheet" href="css/connect-four.css">
+</head>
+<body>
+
+  <!-- Navbar Section -->
+  <nav>
+    <div class="logo">My Personal Website</div>
+    <ul class="nav-links">
+      <li><a href="index.html">About Me</a></li>
+      <li><a href="games.html">Back to Games</a></li>
+    </ul>
+  </nav>
+
+  <!-- Game Page Section -->
+  <section class="game-page">
+    <h1>Bring a Friend and Start Playing!</h1>
+    <button class="proceed-btn" onclick="chooseColor()">Proceed</button>
+
+    <!-- Connect Four Grid -->
+    <div id="connect-four-board" class="connect-four-board">
+      <!-- Rows and Columns will be dynamically generated -->
+    </div>
+
+    <div id="message"></div>
+  </section>
+
+  <script src="js/connect-four.js"></script>
+</body>
+</html>
+

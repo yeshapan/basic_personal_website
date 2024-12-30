@@ -1,0 +1,123 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: whitesmoke;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: whitesmoke;
+    padding: 1rem 2rem;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 1em;
+    color: whitesmoke;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.active {
+    color: pink;
+}
+
+.logo {
+    height: 40px;
+    width: auto;
+    margin-right: auto;
+}
+
+/* Contact Form Styling */
+.contact-container {
+    max-width: 600px;
+    margin: 50px auto;
+    margin-top: 30px;
+    padding: 20px;
+    text-align: left;
+}
+
+h1 {
+    color: pink;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: whitesmoke;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    border: 2px solid pink;
+    color: whitesmoke;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.submit-btn {
+    background-color: pink;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: whitesmoke;
+    color: pink;
+}
+
+/*footer styling*/
+/* Social Icon Styling */
+footer .social-links a {
+    color: whitesmoke; /* Default icon color */
+    font-size: 1.5em; /* Adjust icon size */
+    margin: 0 10px;
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-decoration: none; /* Remove underline */
+}
+
+footer .social-links a:hover {
+    color: pink; /* Change to pink on hover */
+    transform: scale(1.2); /* Slight zoom on hover */
+}
+
+/*To align the links to the right */
+footer {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    text-align: right;
+}

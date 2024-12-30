@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: whitesmoke;
+}
+
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black; /* Dark mode background */
+    color: whitesmoke; /* Navbar text color */
+    padding: 1rem 2rem;
+}
+
+/* Align navbar items to the right */
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    width: 100%; /* Makes sure items align fully right */
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+/* Link styles */
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 1em;
+    color: pink;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.active {
+    color: whitesmoke; /* Change text to whitesmoke on hover */
+}
+
+
+
+
+
+/*education styling*/
+.education-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: pink;
+    margin-bottom: 30px;
+}
+
+.education-timeline {
+    position: relative;
+    padding-left: 20px;
+    border-left: 2px solid pink;
+}
+
+.education-item {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.education-item .circle {
+    position: absolute;
+    left: -32px;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    background-color: pink;
+    border-radius: 50%;
+    border: 2px solid whitesmoke;
+}
+
+.degree {
+    font-size: 1.5em;
+    color: pink;
+    margin-bottom: 10px;
+}
+
+.details {
+    font-size: 1em;
+    margin: 2px 0;
+}

@@ -1,0 +1,97 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: whitesmoke;
+    text-align: left;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black; /* Dark mode background */
+    color: whitesmoke; /* Navbar text color */
+    padding: 1rem 2rem;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    width: 100%; /* Makes sure items align fully right */
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 1em;
+    color: whitesmoke;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.active {
+    color: pink; /* Change text to pink on hover */
+}
+
+.logo {
+    height: 40px; /* Adjust logo height */
+    width: auto;
+    margin-right: auto; /logo to the left/
+}
+
+/* Languages Section Styling */
+.languages-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: pink;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.languages-timeline {
+    position: relative;
+    padding-left: 20px;
+    border-left: 2px solid pink;
+}
+
+.language-item {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.language-item .circle {
+    position: absolute;
+    left: -32px;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    background-color: pink;
+    border-radius: 50%;
+    border: 2px solid whitesmoke;
+}
+
+.language-name {
+    font-size: 1.5em;
+    color: pink;
+    margin-bottom: 10px;
+}
+
+.proficiency {
+    font-size: 1em;
+    margin: 2px 0;
+}
