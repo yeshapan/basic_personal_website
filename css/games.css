@@ -20,7 +20,7 @@
   body {
     background-color: black;
     color: whitesmoke;
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
   }
   
   /* Navbar Styling */
@@ -34,7 +34,8 @@
   }
   
   nav .logo {
-    font-size: 1.5rem;
+    height: 40px;
+    width: 40px;
     font-weight: bold;
   }
   
